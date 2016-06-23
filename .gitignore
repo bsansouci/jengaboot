@@ -6,7 +6,6 @@
 *.cmo
 _build/
 *.out
-jengaroot.ml
 node_modules/ocamlRe
 node_modules/ocamlBetterErrors
 npm-debug.log
