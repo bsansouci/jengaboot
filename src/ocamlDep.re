@@ -26,7 +26,6 @@ let ocamlDep source::source target::target => {
   /** seems like refmt intelligently detects source code type (re/ml) */
   let getDepAction () =>
     bashf
-      ignore_stderr::true
       "%s ocamlfind ocamldep -pp 'refmt --print binary' %s %s -ml-synonym .re -mli-synonym .rei -modules -one-line %s %s %s; (exit ${PIPESTATUS[0]})"
       envvars
       ppx
