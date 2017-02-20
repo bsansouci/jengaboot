@@ -19,12 +19,7 @@
     "@opam-alpha/merlin": "*",
     "@opam-alpha/utop": "*"
   },
-  "esy": {
-    "build": [
-      "./compile-rebel.sh",
-      "cp _build/src/rebel $cur__bin/"
-    ]
-  },
+  "esy": {},
   "license": "ISC",
   "version": "0.0.23"
 }
