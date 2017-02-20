@@ -19,7 +19,11 @@
     "@opam-alpha/merlin": "*",
     "@opam-alpha/utop": "*"
   },
-  "esy": {},
+  "esy": {
+    "build": [
+      "cp rebel $cur__bin/"
+    ]
+  },
   "license": "ISC",
   "version": "0.0.23"
 }
